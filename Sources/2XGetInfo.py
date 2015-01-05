@@ -33,7 +33,7 @@ def main():
     (options, args) = parser.parse_args()
     if not options.filename:   # if filename is not given
         parser.error('Filename not given')
-    if not options.filename:   # if filename is not given
+    if not options.hostname:   # if filename is not given
         parser.error('Hostname not given')
     SERVER = options.hostname;
     OUTPUTXML = options.filename;
