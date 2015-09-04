@@ -26,7 +26,7 @@ from optparse import OptionParser
 
 def main():
     print >>sys.stderr,  "Get Info from 2X 20002 Admin port (PoC)"
-    print >>sys.stderr,  "coded by Nicolas GOLLET"
+    print >>sys.stderr,  "coded by Nicolas GOLLET (ng@ng.pe)"
     parser = OptionParser()
     parser.add_option("-d", "--destination", dest="hostname", help="Destination hostname or IP", metavar="HOSTNAME")
     parser.add_option("-f", "--file", dest="filename", help="write report to FILE", metavar="FILE")
